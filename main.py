@@ -13,11 +13,11 @@ screen.config(bg= "black")
 
 pattern = "*.mp3"
 mixer.init()
-prev_img = ImageTk.PhotoImage(Image.open('back.png'))
-next_img = ImageTk.PhotoImage(Image.open('next.png'))
-pause_img = ImageTk.PhotoImage(Image.open('pause.png'))
-play_img = ImageTk.PhotoImage(Image.open('play.png'))
-stop_img = ImageTk.PhotoImage(Image.open('stop.png'))
+prev_img = ImageTk.PhotoImage(Image.open('Button_Images\\back.png'))
+next_img = ImageTk.PhotoImage(Image.open('Button_Images\\next.png'))
+pause_img = ImageTk.PhotoImage(Image.open('Button_Images\\pause.png'))
+play_img = ImageTk.PhotoImage(Image.open('Button_Images\\play.png'))
+stop_img = ImageTk.PhotoImage(Image.open('Button_Images\\stop.png'))
 
 def select():
     currentsong.config(text=lb.get('anchor'))
